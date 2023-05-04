@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+     <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="icon" href="https://img.freepik.com/icones-gratis/controle-de-video-game_318-310551.jpg" alt="imagem do topo da página" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+  <audio id="EfeitoSonoroTecnológico">
+            <source src="https://drive.google.com/uc?export=download&id=1qjM4GFnvrINFpibJhWEwbPuZI_p-DxWg" type="audio/mpeg">
+          </audio>
+               <div id="comeco-de-jogo">
+            <div class="titulo">
+                <p class="titulonivel">Jogo da Professora Tânia</p>
+                </div>
+                    <div class="botoes" style="margin-top: 100px;">
+                    <button onmouseover="playSound()" class="botao botao6ano" onclick="window.open('https://touchrefletz.github.io/Jogo-da-Professora-Tania/', '_blank');" style="opacity: 1; height: 75px; cursor: pointer;">6 Ano</button>
+                    <button onmouseover="playSound()" class="botao botao7ano" onclick="window.open('https://touchrefletz.github.io/Jogo-da-Professora-Tania/', '_blank');" style="opacity: 1; height: 75px; cursor: pointer;">7 Ano</button>
+                    <button onmouseover="playSound()" class="botao botao8ano" onclick="window.open('https://touchrefletz.github.io/Jogo-da-Professora-Tania/', '_blank'); "style="opacity: 1; height: 75px; cursor: pointer;">8 Ano</button>
+                    <button onmouseover="playSound()" class="botao botao9ano" onclick="window.open('https://touchrefletz.github.io/Jogo-da-Professora-Tania---9-Ano/', '_blank');" style="opacity: 1; height: 75px; cursor: pointer;">9 Ano</button>
+                </div>
+            </div> 
+            <script>
+                function playSound() {
+                var audio = document.getElementById("EfeitoSonoroTecnológico");
+            audio.play();
+            }
+            </script>
+    </body>
+</html>
